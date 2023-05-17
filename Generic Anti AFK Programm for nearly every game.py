@@ -21,9 +21,7 @@ while True:
 			keyboard.press('d')
 			time.sleep(random.randint(1, 2))
 			keyboard.release('d')
-			keyboard.press('e')
-			time.sleep(random.randint(0, 1))
-			keyboard.release('e')
+
 		else:
 			keyboard.release('w')
 			keyboard.release('a')
